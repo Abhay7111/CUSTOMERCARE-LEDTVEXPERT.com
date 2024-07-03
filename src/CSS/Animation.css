@@ -1,0 +1,18 @@
+.top-botom-animation{
+     animation: topbtm;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     animation-delay: 2s;
+     background-color: #fd399b;
+}
+
+@keyframes topbtm {
+     0%, 100%{
+          top: 0vh;
+     }
+     50%{
+          width: 350px;
+          opacity: 50%;
+          top: 80vh;
+     }
+}
