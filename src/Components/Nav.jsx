@@ -14,7 +14,7 @@ function Nav() {
           }
      })
   return (
-    <div className='w-full h-14 flex items-center justify-between px-3'>
+    <div className='w-full h-14 relative z-[99] flex items-center justify-between px-3'>
      <div className='text-xl font-bold'>CL.</div>
      <div className='w-fit relative'>
           <ul className='hidden menu absolute bg-zinc-100 py-2 sm:py-0 mt-3 sm:mt-0 sm:bg-transparent top-full w-fit text-nowrap px-4 sm:px-0 rounded-md sm:rounded-none right-0 sm:relative sm:flex sm:flex-row gap-2'>
