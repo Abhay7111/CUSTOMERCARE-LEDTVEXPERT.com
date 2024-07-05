@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import Home from './Components/Home';
 import Nav from './Components/Nav';
+import Home from './Components/Home';
+import Services from './Components/Services';
 import Footer from './Components/Footer';
 
 function App() {
@@ -8,7 +9,10 @@ function App() {
 
   return (
     <>
-    <Nav/><Home/><Footer/>
+    <Nav/>
+    <Home/>
+    <Services/>
+    <Footer/>
     </>
   )
 }
