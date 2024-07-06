@@ -8,17 +8,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <div className='w-full h-full absolute z-0'>
-               <div className='size-40 relative rounded-full blur-3xl top-botom-animation'></div>
-               <div className='size-40 relative rounded-full blur-3xl top-left-animation'></div>
-               <div className='size-72 relative rounded-full blur-3xl left-right-animation'></div>
-          </div>
+    <div className='overflow-x-hidden'>
     <Nav/>
     <Home/>
+    <div className='px-5'>
     <Services/>
+    </div>
     <Footer/>
-    </>
+    </div>
   )
 }
 

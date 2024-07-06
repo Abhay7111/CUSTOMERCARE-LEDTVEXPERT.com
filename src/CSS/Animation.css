@@ -37,14 +37,14 @@
           background-color: #ff4ea6;
      }
      50%{
-          width: 350px;
+          width: 300px;
           opacity: 50%;
           top: 40vh;
           left: 10vw;
           background-color: #f89e74;
      }
      70%{
-          left: 30vw;
+          left: 20vw;
           top: 20vh;
      }
 }
