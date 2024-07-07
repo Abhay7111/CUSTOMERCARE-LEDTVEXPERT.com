@@ -28,7 +28,9 @@ function App() {
     <div>
       <Contact/>
     </div>
+    <div className='mt-10'>
     <Footer/>
+    </div>
     </div>
   )
 }
