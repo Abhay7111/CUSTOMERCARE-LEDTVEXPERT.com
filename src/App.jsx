@@ -11,12 +11,18 @@ function App() {
   return (
     <div className='overflow-x-hidden'>
     <Nav/>
+    <div id='/'>
     <Home/>
-    <div className=' bg-[#FFD3B6] w-full flex items-center justify-center p-5'>
+    </div>
+    <div id='About' className=' bg-[#FFD3B6] w-full flex items-center justify-center mt-32 pt-10'>
       <Aboutus/>
     </div>
-    <div className='px-5'>
+    <div id='Services' className='px-5'>
     <Services/>
+    </div>
+    <div id='Callnow' className='h-fit py-5 bg-[#ffd1bd] px-5'>
+      <h1 className='text-[7vw] sm:text-[5vw] text-center font-bold leading-none tracking-tighter'>WOULD YOU LIKE TO KNOW MORE?</h1>
+      <div className='flex flex-col items-center mt-5 '><a className='py-3 px-10 text-sm font-medium bg-[#ffaf8d] hover:bg-[#fc9e76] rounded' href="tel:+918421119417">Call now</a></div>
     </div>
     <Footer/>
     </div>
