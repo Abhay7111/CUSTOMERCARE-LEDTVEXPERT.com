@@ -48,3 +48,20 @@
           top: 20vh;
      }
 }
+
+.animationrotate{
+     animation: rotate;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+     0%, 100%{
+          rotate: 50deg;
+     }
+     30%{
+          rotate: 0deg;
+          text-shadow: 1px 1px 6px #c08d02;
+          font-size: 1.6rem;
+     }
+}

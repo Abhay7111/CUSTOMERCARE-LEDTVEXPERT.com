@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+     scroll-behavior: smooth;
+}
+
 html{
      width: 100vw;
      height: 100vh;
@@ -12,4 +16,9 @@ html{
 }
 ::-webkit-scrollbar{
      scrollbar-width: none;
+}
+
+.animationrotate:hover{
+     animation: none;
+     transition: all ease-in 0.7s;
 }

@@ -10,7 +10,7 @@ function Services() {
     <div className='flex rounded-xl p-5 py-10 mt-10 relative flex-col sm:flex-row items-center sm:justify-center flex-wrap'>
      <h1 className='w-full text-center text-[8vw] sm:text-[4vw] font-bold uppercase mb-5'>Our services</h1>
      <div className='w-full gap-3 h-fit flex items-center justify-center flex-wrap mt-3'>
-      <div className='w-96 sm:w-72 min-h-20 bg-[#fff5ed] rounded-lg p-1.5 pb-5'>
+      <div className='w-96 sm:w-72 min-h-20 bg-[#27272a17] rounded-lg p-1.5 pb-5'>
         <img src={Backligh} alt="Not found" className='text-sm font-thin rounded-md h-fit w-full sm:max-h-[200px] object-cover object-top' />
         <div className='mt-5 px-2'>
           <h1 className='text-xl font-bold'>Backlight repair</h1>
@@ -21,7 +21,7 @@ function Services() {
               </div>
         </div>
       </div>
-      <div className='w-96 sm:w-72 min-h-20 bg-[#fff5ed] rounded-lg p-1.5 pb-5'>
+      <div className='w-96 sm:w-72 min-h-20 bg-[#27272a17] rounded-lg p-1.5 pb-5'>
         <img src={Motherboard3} alt="Not found" className='text-sm font-thin rounded-md h-fit w-full sm:max-h-[200px] object-cover object-center' />
         <div className='mt-5 px-2'>
           <h1 className='text-xl font-bold'>Motherboard repair</h1>
@@ -32,7 +32,7 @@ function Services() {
               </div>
         </div>
       </div>
-      <div className='w-96 sm:w-72 min-h-20 bg-[#fff5ed] rounded-lg p-1.5 pb-5'>
+      <div className='w-96 sm:w-72 min-h-20 bg-[#27272a17] rounded-lg p-1.5 pb-5'>
         <img src={Motherboard2} alt="Not found" className='text-sm font-thin rounded-md h-fit w-full sm:max-h-[200px] object-cover object-center' />
         <div className='mt-5 px-2'>
           <h1 className='text-xl font-bold'>IC repair</h1>
@@ -43,7 +43,7 @@ function Services() {
               </div>
         </div>
       </div>
-      <div className='w-96 sm:w-72 min-h-20 bg-[#fff5ed] rounded-lg p-1.5 pb-5'>
+      <div className='w-96 sm:w-72 min-h-20 bg-[#27272a17] rounded-lg p-1.5 pb-5'>
         <img src={Ledtv} alt="Not found" className='text-sm font-thin rounded-md h-fit w-full sm:max-h-[200px] object-cover object-top' />
         <div className='mt-5 px-2'>
           <h1 className='text-xl font-bold'>All tv repair</h1>
