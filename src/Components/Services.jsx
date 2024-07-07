@@ -1,5 +1,5 @@
 import React from 'react'
-import Backligh from '/BackLight.jpg'
+import Backligh from '/BackLight3.jpg'
 import Motherboard1 from '/Motherboard1.jpg'
 import Motherboard2 from '/Motherboard2.jpg'
 import Motherboard3 from '/Motherboard5.jpg'
