@@ -7,8 +7,8 @@ function Footer() {
       <div className=' px-5 flex sm:w-1/3 flex-col'>
         <h1 className='text-xl font-medium mb-6 text-zinc-100'>Contact Us</h1>
         <p className='font-light mb-3'>Bhudhwar Peth Pune - 411002</p>
-        <p className='flex gap-3 font-light flex-wrap'><span><a href="tel:+918421119417"><i class="ri-phone-line text-[#FBC61E]"> </i>+91-8421119417</a></span><span><a href="mailto:vishwaxupte@gmail.com"><i class="ri-mail-line text-[#FBC61E]"> </i>vishwaxupte@gmail.com</a></span>
-        <span><a href="https://ledtvexpert.in"><i class="ri-global-line text-[#FBC61E]"> </i>ledtvexpert.in</a></span></p>
+        <p className='flex gap-3 font-light flex-wrap'><span><a href="tel:+918421119417" className='hover:text-[#FBC61E]'><i class="ri-phone-line text-[#FBC61E]"> </i>+91-8421119417</a></span><span><a href="mailto:vishwaxupte@gmail.com" className='hover:text-[#FBC61E]'><i class="ri-mail-line text-[#FBC61E]"> </i>vishwaxupte@gmail.com</a></span>
+        <span><a href="https://ledtvexpert.in" className='hover:text-[#4c7cff]'><i class="ri-global-line text-[#FBC61E]"> </i>ledtvexpert.in</a></span></p>
       </div>
       <div className='flex px-5 sm:w-1/3 flex-col w-full'>
         <h1 className='text-xl font-medium mt-10 sm:mt-0 text-zinc-100'>Useful Links</h1>
