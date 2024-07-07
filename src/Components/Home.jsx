@@ -21,7 +21,7 @@ function Home() {
               </div>
             </div>
             <div className='w-full sm:w-1/2 h-fit max-h-[60vh] overflow-hidden flex items-center justify-center'>
-              <img src={topimg} alt="Sorry not get image" className='size-96 rounded-md'/>
+              <img src={topimg} alt="Sorry not get image" className='size-[400px] rounded-md'/>
             </div>
           </div>
      </div>

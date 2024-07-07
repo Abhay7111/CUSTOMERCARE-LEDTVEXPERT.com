@@ -7,7 +7,7 @@ import Ledtv from '/LEDTV.jpg'
 
 function Services() {
   return (
-    <div className='flex rounded-xl p-5 pb-10 bg-[#FFD3B6] relative flex-col sm:flex-row items-center sm:justify-center flex-wrap'>
+    <div className='flex rounded-xl p-5 pb-10 relative flex-col sm:flex-row items-center sm:justify-center flex-wrap'>
      <h1 className='w-full text-center text-[8vw] sm:text-[4vw] font-bold uppercase mb-5'>Our services</h1>
      <div className='w-full gap-3 h-fit flex items-center justify-center flex-wrap mt-3'>
       <div className='w-80 sm:w-72 min-h-20 bg-[#DCA47C] rounded-lg p-1.5'>
