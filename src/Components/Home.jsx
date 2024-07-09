@@ -5,7 +5,7 @@ import topimg from '/topimg.jpg'
 
 function Home() {
   return (
-    <div className='w-full relative pt-10 z-10 h-fit'>
+    <div id='home' className='w-full relative pt-10 z-10 h-fit'>
           <div className='relative z-10 flex sm:flex-row flex-col gap-5 h-full sm:items-center'>
             <div className='w-full sm:w-1/2 h-1/2 sm:h-fit flex-col px-4 flex items-start justify-center'>
               <h1 className=' text-[10vw] leading-tight sm:text-[6vw] text-center font-bold uppercase w-full'><div className='text-[7vw] sm:text-[4.5vw] text-start flex text-nowrap w-96 text-[#ffaf36]'>WELCOME to </div>CUSTOMERCARE LEDTVEXPERT</h1>

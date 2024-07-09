@@ -5,9 +5,21 @@ import Services from './Components/Services';
 import Footer from './Components/Footer';
 import Aboutus from './Components/Aboutus';
 import Contact from './Components/Contact';
+import Gallery from './Components/Gallery';
+import Motherboard1 from '/Motherboard1.jpg';
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const gallerydata = [
+    {
+      image:Motherboard1,
+      problems:'problem in motherboard and IC',
+      range:'20km',
+      title:'Motherboard',
+      disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
+    },
+  ]
 
   return (
     <div className='overflow-x-hidden relative'>
@@ -17,6 +29,11 @@ function App() {
     </div>
     <div id='About' className=' bg-[#27272A] text-zinc-200 w-full flex items-center justify-center mt-32 pt-10'>
       <Aboutus/>
+    </div>
+    <div className='bg-red-400 px-5 flex items-center justify-center gap-3'>
+      {gallerydata.map((items, index)=>(
+        <Gallery gallerydata={items}/>
+      ))}
     </div>
     <div id='Services' className='px-5'>
     <Services/>
