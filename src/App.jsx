@@ -19,6 +19,20 @@ function App() {
       title:'Motherboard',
       disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
     },
+    {
+      image:Motherboard1,
+      problems:'problem in motherboard and IC',
+      range:'20km',
+      title:'Motherboard',
+      disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
+    },
+    {
+      image:Motherboard1,
+      problems:'problem in motherboard and IC',
+      range:'20km',
+      title:'Motherboard',
+      disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
+    },
   ]
 
   return (
@@ -30,7 +44,7 @@ function App() {
     <div id='About' className=' bg-[#27272A] text-zinc-200 w-full flex items-center justify-center mt-32 pt-10'>
       <Aboutus/>
     </div>
-    <div className='bg-red-400 px-5 flex items-center justify-center gap-3'>
+    <div className='bg-red-400 px-5 mt-5 flex-wrap flex items-center justify-center gap-3'>
       {gallerydata.map((items, index)=>(
         <Gallery gallerydata={items}/>
       ))}
