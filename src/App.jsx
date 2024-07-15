@@ -7,6 +7,11 @@ import Aboutus from './Components/Aboutus';
 import Contact from './Components/Contact';
 import Gallery from './Components/Gallery';
 import Motherboard1 from '/Motherboard1.jpg';
+import Motherboard2 from '/Motherboard2.jpg';
+import Motherboard3 from '/Motherboard3.jpg';
+import Motherboard4 from '/Motherboard4.jpg';
+import Motherboard5 from '/Motherboard5.jpg';
+import Motherboard6 from '/BackLight4on.jpg';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,20 +22,53 @@ function App() {
       problems:'problem in motherboard and IC',
       range:'20km',
       title:'Motherboard',
+      maincardstyle:'maincard1',
+      cardhvrstyle:'cardhvr1',
       disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
     },
     {
-      image:Motherboard1,
+      image:Motherboard2,
       problems:'problem in motherboard and IC',
       range:'20km',
       title:'Motherboard',
+      maincardstyle:'maincard2',
+      cardhvrstyle:'cardhvr2',
       disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
     },
     {
-      image:Motherboard1,
+      image:Motherboard3,
       problems:'problem in motherboard and IC',
       range:'20km',
       title:'Motherboard',
+      maincardstyle:'maincard3',
+      cardhvrstyle:'cardhvr3',
+      disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
+    },
+    {
+      image:Motherboard4,
+      problems:'problem in motherboard and IC',
+      range:'20km',
+      title:'Motherboard',
+      maincardstyle:'maincard4',
+      cardhvrstyle:'cardhvr4',
+      disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
+    },
+    {
+      image:Motherboard5,
+      problems:'problem in motherboard and IC',
+      range:'20km',
+      title:'Motherboard',
+      maincardstyle:'maincard5',
+      cardhvrstyle:'cardhvr5',
+      disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
+    },
+    {
+      image:Motherboard6,
+      problems:'problem in motherboard and IC',
+      range:'20km',
+      title:'Motherboard',
+      maincardstyle:'maincard6',
+      cardhvrstyle:'cardhvr6',
       disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
     },
   ]
@@ -44,7 +82,7 @@ function App() {
     <div id='About' className=' bg-[#27272A] text-zinc-200 w-full flex items-center justify-center mt-32 pt-10'>
       <Aboutus/>
     </div>
-    <div className='bg-red-400 px-5 mt-5 flex-wrap flex items-center justify-center gap-3'>
+    <div className='px-5 mt-5 flex-wrap flex items-center justify-center gap-3'>
       {gallerydata.map((items, index)=>(
         <Gallery gallerydata={items}/>
       ))}
