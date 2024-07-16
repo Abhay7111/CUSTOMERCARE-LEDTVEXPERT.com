@@ -20,7 +20,7 @@ function App() {
     {
       image:Motherboard1,
       problems:'problem in motherboard and IC',
-      range:'20km',
+      range:'21.4km',
       title:'Motherboard',
       maincardstyle:'maincard1',
       cardhvrstyle:'cardhvr1',
@@ -29,7 +29,7 @@ function App() {
     {
       image:Motherboard2,
       problems:'problem in motherboard and IC',
-      range:'20km',
+      range:'20.2km',
       title:'Motherboard',
       maincardstyle:'maincard2',
       cardhvrstyle:'cardhvr2',
@@ -38,7 +38,7 @@ function App() {
     {
       image:Motherboard3,
       problems:'problem in motherboard and IC',
-      range:'20km',
+      range:'26km',
       title:'Motherboard',
       maincardstyle:'maincard3',
       cardhvrstyle:'cardhvr3',
@@ -47,7 +47,7 @@ function App() {
     {
       image:Motherboard4,
       problems:'problem in motherboard and IC',
-      range:'20km',
+      range:'24km',
       title:'Motherboard',
       maincardstyle:'maincard4',
       cardhvrstyle:'cardhvr4',
@@ -56,7 +56,7 @@ function App() {
     {
       image:Motherboard5,
       problems:'problem in motherboard and IC',
-      range:'20km',
+      range:'27km',
       title:'Motherboard',
       maincardstyle:'maincard5',
       cardhvrstyle:'cardhvr5',
@@ -64,9 +64,9 @@ function App() {
     },
     {
       image:Motherboard6,
-      problems:'problem in motherboard and IC',
-      range:'20km',
-      title:'Motherboard',
+      problems:'problem in backlight',
+      range:'25km',
+      title:'Backlight',
       maincardstyle:'maincard6',
       cardhvrstyle:'cardhvr6',
       disc:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem accusamus voluptate, praesentium provident doloremque reprehenderit ipsum itaque dolor quae hic.",
@@ -82,6 +82,7 @@ function App() {
     <div id='About' className=' bg-[#27272A] text-zinc-200 w-full flex items-center justify-center mt-32 pt-10'>
       <Aboutus/>
     </div>
+      <h2 className='w-full text-center text-5xl py-6 sm:text-4xl sm:py-8 font-bold uppercase 2xl:text-6xl 2xl:py-10 2xl:px-5 2xl:uppercase'>Gallery</h2>
     <div className='px-5 mt-5 flex-wrap flex items-center justify-center gap-3'>
       {gallerydata.map((items, index)=>(
         <Gallery gallerydata={items}/>
