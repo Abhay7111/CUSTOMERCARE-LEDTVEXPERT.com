@@ -82,7 +82,7 @@ function App() {
     <div id='About' className=' bg-[#27272A] text-zinc-200 w-full flex items-center justify-center mt-32 pt-10'>
       <Aboutus/>
     </div>
-      <h2 className='w-full text-center text-5xl py-6 sm:text-4xl sm:py-8 font-bold uppercase 2xl:text-6xl 2xl:py-10 2xl:px-5 2xl:uppercase'>Gallery</h2>
+      <h2 className='w-full text-zinc-900 text-center text-5xl py-6 sm:text-4xl sm:py-8 font-bold uppercase 2xl:text-6xl 2xl:py-10 2xl:px-5 2xl:uppercase'>Gallery</h2>
     <div className='px-5 mt-5 flex-wrap flex items-center justify-center gap-3'>
       {gallerydata.map((items, index)=>(
         <Gallery gallerydata={items}/>
