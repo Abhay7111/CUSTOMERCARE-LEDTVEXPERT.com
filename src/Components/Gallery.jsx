@@ -70,7 +70,7 @@ function Gallery({gallerydata}) {
       <div className='w-full h-[75%] flex flex-col justify-end gap-1 items-start absolute bottom-0 left-0 px-2 py-2 rounded-b-lg bg-gradient-to-t from-zinc-900/90'>
         <h2 className='font-medium uppercase px-2 line-clamp-2 bg-zinc-800/70 py-1.5 rounded-md tracking-tighte text-[3vw] leading-none text-yellow-400 sm:text-[1.4vw]'>{gallerydata.problems}</h2>
         <h2 className='text-[2.4vw] 2xl:leading-normal h-16 sm:h-fit p-1 overflow-y-auto bg-yellow-500 rounded-lg leading-4 text-zinc-800/80 sm:text-[0.9vw]'>{gallerydata.disc}</h2>
-        <a href="#" className='py-1.5 px-2 bg-yellow-500 rounded-md text-[10px] font-medium'>Contact us</a>
+        <a href="#contactus" className='py-1.5 px-2 bg-yellow-500 rounded-md text-[10px] font-medium'>Contact us</a>
       </div>
      </div>
     </div>
